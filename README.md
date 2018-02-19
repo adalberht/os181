@@ -1,6 +1,10 @@
 # os181 - Operating Systems 2018
 **ZCZC Sistem Operasi 2018 Awal (1)**
 
+- ZCZC W00
+
+- ZCZC W01
+
 #### About Me
 
 | Title       | Description            |
