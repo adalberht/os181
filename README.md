@@ -1,7 +1,11 @@
 # os181 - Operating Systems 2018
 ZCZC Sistem Operasi 2018 Awal (1)
 
-ZCZC W01
+ZCZC W01 - Done!
+
+ZCZC W02 - Done! I love C <3
+
+
 
 #### About Me
 
