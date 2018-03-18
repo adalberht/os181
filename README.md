@@ -9,7 +9,7 @@ ZCZC W03 - Done!
 
 ZCZC W04 - Done!
 
-
+ZCZC W05 - Done!
 
 #### About Me
 
@@ -18,4 +18,3 @@ ZCZC W04 - Done!
 | Name        | Albertus Angga Raharja |
 | NPM         | 1606918401             |
 | Class       | B                      |
-| SSO Account | albertus.angga         |
