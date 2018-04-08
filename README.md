@@ -11,6 +11,8 @@ ZCZC W04 - Done!
 
 ZCZC W05 - Done!
 
+ZCZC W06 - Done!
+
 #### About Me
 
 | Title       | Description            |
