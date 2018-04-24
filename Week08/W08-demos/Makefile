@@ -1,29 +1,36 @@
-# (c) 2007-2017 Rahmat M. Samik-Ibrahim
-# http://rahmatm.samik-ibrahim.vlsm.org/
-# This is free software. Feel free to copy and / or 
-# modify and/or distribute it, provided this notice, 
-# and the copyright notice, are preserved. 
-
-# REV03 Fri Nov 10 17:59:12 WIB 2017
-# REV01 Tue Nov  8 12:00:27 WIB 2016
-# START Fri Mar 30 02:13:01 UTC 2007
+# REV02 Mon Apr 23 16:42:47 WIB 2018
+# START Wed Apr 18 20:55:24 WIB 2018
 
 CC=gcc
-CFLAGS=-std=gnu99
-DEPS=Makefile
+CFLAGS=-std=gnu99 -pthread
+
+P20=20-parent
+P21=21-child
+P22=22-hello-goodbye
+P23=23-kirim-ambil
+
 
 EXECS= \
-      00-server \
-      01-client \
-      02-clisvr \
+        $(P20) \
+        $(P21) \
+        $(P22) \
+        $(P23) \
 
 
-all:	$(EXECS)
+DEMOFILES=\
+	demo-file1.txt \
+        
 
+all:  $(EXECS)
 
 $(EXECS): %: %.c $(DEPS)
 	$(CC) $(CFLAGS) $< -o $@ 
 
 clean:
-	rm -f $(EXECS)
+	rm -f ${EXECS} 
+	rm -f ${DEMOFILES}
+	rm -f *.map
+ 
+demo:
+	bash .shsh
 
