@@ -19,7 +19,10 @@ P57=57-dup
 P58=58-dup2
 P59=59-io
 P60=60-readwrite
-P61=61-os172
+P61=61-open-dup
+P62=62-os172
+P63=63-os171-dup
+P64=64-os161
 
 
 EXECS= \
@@ -38,6 +41,9 @@ EXECS= \
         $(P59) \
         $(P60) \
         $(P61) \
+        $(P62) \
+        $(P63) \
+        $(P64) \
 
 
 DEMOFILES=\
@@ -53,6 +59,9 @@ DEMOFILES=\
 	demo-fileA.txt \
 	demo-copy.txt  \
         $(P61)-demo.txt \
+        $(P62)-demo.txt \
+        $(P63)-demo.txt \
+        $(P64)-demo.txt \
         
 
 all:  $(EXECS)
